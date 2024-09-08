@@ -1,0 +1,40 @@
+.filme-info{
+    max-width: 500px;
+    margin: 14px auto;
+}
+
+
+.filme-info h1{
+    color: #F2F0F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.filme-info img{
+    height: 300px;
+    border-radius: 8px;
+    
+}
+.filme-info span{
+    color: #F2F0F1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+.filme-info strong{
+    color: #F2F0F1;
+}
+    
+@media(max-width:1000px){
+    .filme-info{
+        padding: 50px;
+
+    }
+    .filme-info img{
+        height: 250px;
+        width: 300px;
+    }
+    
+}
